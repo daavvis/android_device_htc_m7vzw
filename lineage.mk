@@ -15,7 +15,7 @@
 $(call inherit-product, device/htc/m7vzw/full_m7vzw.mk)
 
 # Inherit CM full phone configuration
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device naming
 PRODUCT_NAME := lineage_m7vzw
